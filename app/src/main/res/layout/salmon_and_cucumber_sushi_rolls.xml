@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smokedSalmon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:onClick="buttonforSushi2"
+    tools:context=".SalmonAndCucumberSushiRolls">
+
+
+
+    <ImageView
+        android:id="@+id/imageSushi1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/salmon_and_cucumber"/>
+
+    <TextView
+        android:id="@+id/textRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lobster"
+        android:text="     Salmon and cucumber sushi rolls"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textForIngridients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:text="                           Ingridients
+                               \n
+                               \n  - 2 nori sheets
+                               \n  - 100g skinless salmon fillet (use
+                               \n  really fresh),thinly sliced lengthways
+                               \n  - ¼ cucumber , deseeded, thinly sliced
+                               \n  lengthways
+                               \n  - squeeze wasabi , plus extra to serve
+                               \n  - pickled sushi ginger , to serve
+                               \n  - light soy sauce , to serve
+                               \n  - salmon roe , to serve (optional)
+                               \n
+                               \n                         For the rice
+                               \n  - 100g sushi rice
+                               \n  - 2 tsp saké or mirin (optional)
+                               \n  - tbsp caster sugar (omit if using
+                               \n  mirin)
+                               \n  - 25ml rice vinegar
+                               \n
+                               \n                           Method
+                               \n  STEP 1
+                               \n    First, make the rice. Rinse the sushi
+                               \n  rice in a colander, massaging it with
+                               \n  your hands until the water runs clear.
+                               \n  Leave to drain for 15 mins.
+                               \n
+                               \n  STEP 2
+                               \n    Put the rice in a saucepan with
+                               \n  200ml water and the sake or mirin,
+                               \n  if using. Bring to the boil, then
+                               \n  cover with a lid, reduce the heat to
+                               \n  low and simmer for 20 mins until the
+                               \n  liquid is absorbed. Remove from the
+                               \n  heat. Set aside, covered, for
+                               \n  15-20 mins.
+                               \n
+                               \n  STEP 3
+                               \n    Transfer to a large bowl. Dissolve
+                               \n  the sugar, if using, in the vinegar with
+                               \n  a good pinch of salt, pour over the
+                               \n  rice and mix. Cover with a damp tea
+                               \n  towel and set aside at room
+                               \n  temperature until ready to use.
+                               \n
+                               \n  STEP 4
+                               \n    Put 1 nori sheet on a bamboo mat
+                               \n  and cover the surface with half of the
+                               \n  cooled rice. Lay half of the salmon
+                               \n  and cucumber slices along the length
+                               \n  of the rice in a strip, being careful
+                               \n  not to overfill it. Run a pea-sized blob
+                               \n  of wasabi (more if you like it really
+                               \n  hot) along the edge of the filling with
+                               \n  your finger.
+                               \n
+                               \n  STEP 5
+                               \n    Roll up tightly and squeeze to seal
+                               \n  when you reach the end. Repeat with
+                               \n  the remaining nori, salmon and
+                               \n  cucumber, and more wasabi. Slice
+                               \n  each roll into 6 pieces, and serve
+                               \n  with extra wasabi, ginger, soy sauce
+                               \n  and salmon roe, if you like. Will
+                               \n  keep in the fridge for 1 day."
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText"
+        android:textSize="21sp" />
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smokedSalmon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:onClick="buttonForSushi1"
+    tools:context=".SmokedSalmonAndAvocadoSushi">
+
+
+
+    <ImageView
+        android:id="@+id/imageSushi1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/recipe_image_1"/>
+
+    <TextView
+        android:id="@+id/textRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lobster"
+        android:text="   Smoked salmon and avocado sushi"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textForIngridients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:text="                           Ingridients
+                               \n
+                               \n  - 300g sushi rice
+                               \n  - 2 tbsp rice or white wine vinegar
+                               \n  - 1 tsp castre sugar
+                               \n  - 1 large avocado
+                               \n  - juice ½ lemon
+                               \n  - 4 sheets nori seaweed
+                               \n  - 4 large slices smoked salmon
+                               \n  - 1 bunch chives
+                               \n  - sweet soy sauce (kecap manis),
+                               \n  to serve
+                               \n                           Method
+                               \n  STEP 1
+                               \n    Put the rice in a small pan with
+                               \n  600ml water. Bring to the boil and
+                               \n  cook for 10 mins until the water is
+                               \n  absorbed and the rice is tender.
+                               \n  Stir through the vinegar and
+                               \n  sugar, cover and cool.
+                               \n
+                               \n  STEP 2
+                               \n    Skin, stone and slice the avocado.
+                               \n  Put in a bowl and squeeze over the
+                               \n  lemon juice, turning the avocado to
+                               \n  ensure the pieces are covered.
+                               \n
+                               \n  STEP 3
+                               \n    Divide the rice between the nori
+                               \n  sheets and spread it out evenly,
+                               \n  leaving a 1cm border at the top and
+                               \n  bottom. Lay the salmon over the
+                               \n  rice, followed by the chives and
+                               \n  finally position the avocado across
+                               \n  the centre.
+                               \n
+                               \n  STEP 4
+                               \n    Fold the bottom edge of the
+                               \n  seaweed over the filling, then roll
+                               \n  it up firmly. Dampen the top border
+                               \n  with a little water to help it seal
+                               \n  the roll. Repeat to make 4 rolls.
+                               \n  At this stage, the rolls can be
+                               \n  wrapped individually in cling film
+                               \n  and chilled until ready to serve.
+                               \n
+                               \n  STEP 5
+                               \n    Using a serrated knife, cut each roll
+                               \n  into 8 rounds. Serve with sweet soy
+                               \n  sauce for dipping. "
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText"
+        android:textSize="21sp" />
+
+</LinearLayout>
